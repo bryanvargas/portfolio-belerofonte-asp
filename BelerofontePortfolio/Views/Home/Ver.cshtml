@@ -1,0 +1,22 @@
+﻿@model Model.Alumno
+@{
+    ViewBag.Title = "Ver";
+}
+
+<h2>Alumno</h2>
+<h2>Ver: @ViewBag.id </h2>
+@using (Html.BeginForm("Guardar", "Home", FormMethod.Post))
+{
+    @Html.HiddenFor( x => x.ID)
+
+    @Html.LabelFor( x => x.Nombre)
+    @Html.TextBoxFor(x => x.Nombre, new { @class = "form-control" })
+
+    <input type="hidden" name="algo" value="3232" />
+    <input type="hidden" name="algo" value="3232" />
+    <input type="hidden" name="algo" value="3232" />
+    <input type="hidden" name="algo" value="3232" />
+    <button type="submint" class="btn btn-danger btn-block">Enviar</button>
+}
+
+

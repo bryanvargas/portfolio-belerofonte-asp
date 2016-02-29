@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelerofontePortfolio", "BelerofontePortfolio\BelerofontePortfolio.csproj", "{1B74D151-4B71-4DDB-ADFD-39F80BFFA891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BelerofontePortfolio.Tests", "BelerofontePortfolio.Tests\BelerofontePortfolio.Tests.csproj", "{AC0EA3D4-4FA2-4D52-BCC8-27E8BABCE0D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{7339516C-7E5C-4E3D-B667-5B39A1972CBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B74D151-4B71-4DDB-ADFD-39F80BFFA891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B74D151-4B71-4DDB-ADFD-39F80BFFA891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B74D151-4B71-4DDB-ADFD-39F80BFFA891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B74D151-4B71-4DDB-ADFD-39F80BFFA891}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0EA3D4-4FA2-4D52-BCC8-27E8BABCE0D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0EA3D4-4FA2-4D52-BCC8-27E8BABCE0D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0EA3D4-4FA2-4D52-BCC8-27E8BABCE0D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0EA3D4-4FA2-4D52-BCC8-27E8BABCE0D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7339516C-7E5C-4E3D-B667-5B39A1972CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7339516C-7E5C-4E3D-B667-5B39A1972CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7339516C-7E5C-4E3D-B667-5B39A1972CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7339516C-7E5C-4E3D-B667-5B39A1972CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
